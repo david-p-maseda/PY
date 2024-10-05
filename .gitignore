@@ -1,0 +1,6 @@
+tutorial*
+archive
+.ipynb_checkpoints
+__pycache__
+video*
+.DS_Store

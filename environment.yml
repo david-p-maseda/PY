@@ -1,0 +1,37 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - ipykernel
+  - pandas
+  - streamlit
+  - scikit-learn
+  - plotly
+  - seaborn
+  - openpyxl
+  # - beautifulsoup4
+  # - fsspec
+  # - python-dateutil
+  # - s3fs
+  # - papermill
+  # - openpyxl
+  # - selenium
+  # - fastapi
+  # - uvicorn
+  # - pytest
+  # - pip
+  # - httpx
+  # - boto3
+  # - moto
+  # - python-dotenv
+  # - langchain-openai
+  # - geopandas
+  # - pip:
+      # - pyairtable
+      # - -e modules
+      # - dataframe-image
+      # - python-frontmatter
+      # - git+ssh://git@github.com/jsulopzs/python-ine.git
+      # - git+ssh://git@github.com/jsulopzs/mplcustom.git
+      # - git+ssh://git@github.com/jsulopzs/python-ghost.git
