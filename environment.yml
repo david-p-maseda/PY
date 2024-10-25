@@ -2,20 +2,18 @@ name: base
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.11
   - ipykernel
   - pandas
+  - openpyxl
   - streamlit
+  - papermill
+  - s3fs
   - scikit-learn
   - plotly
-  - seaborn
-  - openpyxl
-  # - beautifulsoup4
+  - beautifulsoup4
   # - fsspec
   # - python-dateutil
-  # - s3fs
-  # - papermill
-  # - openpyxl
   # - selenium
   # - fastapi
   # - uvicorn
@@ -27,10 +25,10 @@ dependencies:
   # - python-dotenv
   # - langchain-openai
   # - geopandas
-  # - pip:
+  - pip:
       # - pyairtable
       # - -e modules
-      # - dataframe-image
+      - dataframe-image
       # - python-frontmatter
       # - git+ssh://git@github.com/jsulopzs/python-ine.git
       # - git+ssh://git@github.com/jsulopzs/mplcustom.git

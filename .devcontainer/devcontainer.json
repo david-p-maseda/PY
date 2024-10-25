@@ -2,7 +2,7 @@
     "name": "DevContainer",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "server",
-    "workspaceFolder": "/app",
+    // "workspaceFolder": "/workspace",
     "shutdownAction": "none",
     "customizations": {
         "codespaces": {
@@ -23,7 +23,9 @@
                 "charliermarsh.ruff",
                 "VisualStudioExptTeam.vscodeintellicode",
                 "GitHub.github-vscode-theme",
-                "ms-azuretools.vscode-docker"
+                "ms-azuretools.vscode-docker",
+                "DavidAnson.vscode-markdownlint",
+                "REditorSupport.r"
             ],
             "settings": {
                 "dev.containers.copyGitConfig": true,

@@ -4,3 +4,4 @@ archive
 __pycache__
 video*
 .DS_Store
+.solutions
