@@ -30,8 +30,5 @@ RUN micromamba install --file environment.yml --name base && \
 # Initialize zsh with micromamba
 RUN micromamba shell init -s zsh
 
-# Add GitHub to known hosts for SSH
-RUN mkdir -p ~/.ssh && ssh-keyscan github.com >> ~/.ssh/known_hosts
-
 # Default command to ensure zsh is launched
 CMD ["zsh"]
